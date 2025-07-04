@@ -2,6 +2,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 import controllers.ContactoController;
+import controllers.Ejercicios;
 import controllers.Sets;
 
 public class App {
@@ -13,6 +14,9 @@ public class App {
         // runLinkedHashSet(sets);
         // runTreeSet(sets);
         // runTreeSetConComparador(sets);
+
+        Ejercicios ej = new Ejercicios();
+        
         
     }
 public static void runHashSet(Sets sets){
